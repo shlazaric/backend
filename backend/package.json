@@ -1,22 +1,21 @@
 {
-  "name": "instaclone-back",
+  "name": "backend-template",
   "version": "1.0.0",
-  "description": "Instaclone backend",
+  "description": "DessertMaster",
   "main": "src/index.js",
   "scripts": {
     "serve": "nodemon --exec babel-node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Shana Antonia Lazarić",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.15",
-    "@babel/node": "^7.13.13",
-    "@babel/preset-env": "^7.13.15",
-    "nodemon": "^2.0.7"
+    "@babel/core": "^7.23.3",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.3",
+    "nodemon": "^3.0.1"
   }
 }
